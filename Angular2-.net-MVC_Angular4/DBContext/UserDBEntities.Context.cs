@@ -19,7 +19,6 @@ namespace Angular2_.net_MVC_Angular4.DBContext
             : base("name=UserDBEntities")
         {
         }
-    
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             throw new UnintentionalCodeFirstException();

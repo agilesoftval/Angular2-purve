@@ -15,7 +15,7 @@ namespace Angular2_.net_MVC_Angular4
 
             routes.MapRoute(
                 name: "Default",
-                url: "{controller}/{action}/{id}",
+                url: "{*anything}",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
             );
         }
